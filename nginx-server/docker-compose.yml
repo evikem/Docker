@@ -17,6 +17,7 @@
         ports:
           - "82:80"
         volumes:
+         - /home/vagrant/nnode2:/etc/nginx
          - /home/vagrant/htmla/:/usr/share/nginx/html
 
       node2:
@@ -24,6 +25,7 @@
         ports:
           - "83:80"
         volumes:
+          - /home/vagrant/nnode2:/etc/nginx
           - /home/vagrant/htmlb/:/usr/share/nginx/html
 
       node3:
