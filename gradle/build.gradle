@@ -1,0 +1,10 @@
+apply plugin: "java"
+
+  repositories {
+    mavenCentral()
+  }
+
+dependencies {
+	compile 'javax.servlet:servlet-api:2.5'
+	compile 'org.eclipse.jetty.aggregate:jetty-all-server:8.1.19.v20160209'
+}
