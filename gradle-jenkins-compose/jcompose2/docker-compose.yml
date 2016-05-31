@@ -1,0 +1,12 @@
+    version: '2'
+    services:
+        jenkinsm:
+             build: .
+             ports:
+                - "8500:8080"
+                
+        jenkinss1:
+             build: ./slavedock
+
+        jenkinss2:
+             build: ./slavedock
