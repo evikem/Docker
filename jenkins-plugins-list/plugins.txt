@@ -1,8 +1,0 @@
-http://updates.jenkins-ci.org/download/plugins/gradle/1.24/gradle.hpi
-http://updates.jenkins-ci.org/download/plugins/git/2.4.4/git.hpi
-http://updates.jenkins-ci.org/download/plugins/git-client/1.19.6/git-client.hpi
-http://updates.jenkins-ci.org/download/plugins/scm-api/1.2/scm-api.hpi
-http://updates.jenkins-ci.org/download/plugins/matrix-project/1.6/matrix-project.hpi
-http://updates.jenkins-ci.org/download/plugins/ssh-credentials/1.11/ssh-credentials.hpi
-http://updates.jenkins-ci.org/download/plugins/mailer/1.17/mailer.hpi
-http://updates.jenkins-ci.org/download/plugins/credentials/1.27/credentials.hpi

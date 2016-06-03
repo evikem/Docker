@@ -1,2 +1,0 @@
-url=http://updates.jenkins-ci.org/download/plugins/gradle/1.24/gradle.hpi
-
