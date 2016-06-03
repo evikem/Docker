@@ -1,0 +1,21 @@
+  version: '2'
+  services:
+      loadbalance:
+          image: httpd:latest
+          ports: 
+            - "81:80"
+          volumes:
+            - /home/vagrant/conf/:/usr/local/apache2/conf
+
+      tomcat1:
+        image: tomcat7
+        ports:
+          - "82:80"
+
+      tomcat2:
+        image: tomcat7
+        ports:
+          - "83:80"
+
+
+      
